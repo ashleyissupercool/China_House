@@ -134,7 +134,61 @@ body{
     background-color: #002301;
     color: #fff7ea;
     padding: 600px 100px;
+    margin-bottom: 0 !important;
+    padding-bottom: 100px !important;
 }
+summary {
+    color: #d32f2f;
+    background-color: #ffaeae;
+}
+.master-menu {
+    background-color: #fc8d8d;
+}
+.menu-category {
+    background-color: #ffaeae;
+}
+.menu-group h4 {
+    color: #d32f2f;
+    margin-bottom: 5px;
+}
+.option-grid {
+    display: flex;
+    justify-content: space-between;
+}
+.option-grid label {
+    color: #000;
+    font-weight: 500;
+}
+.menu-grid-header {
+    color: #000000;
+}
+.menu-item-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+}
+.item-name {
+    color: #000000;
+    font-weight: 600;
+}
+.item-name.spicy{
+    color: #d32f2f;
+    font-weight: bold;
+}
+.item-description {
+    padding: 5px;
+    font-size: 0.85rem;
+    color: #555;
+    margin: 5px 0 0 0;
+    font-style: italic; 
+    max-width: 80%;
+}
+.item-info {
+    display: flex;
+    flex-direction: column;
+}
+
 .menu-text h2 {
     color: rgb(255, 252, 241);
     margin-top: -450px;
@@ -336,6 +390,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    flex-wrap: nowrap;
     padding-top: 10px;
     padding-right: 300px;
     padding-left: 300px;
@@ -354,6 +409,7 @@ body{
     letter-spacing: 2px;
 }
 .hour-text p {
+    color: white;
     font-size: 15px;
     text-align: right;
     letter-spacing: 1px;
@@ -384,6 +440,7 @@ body{
     padding: 40px 20px;
     max-width: 800px;
     margin: 0 auto;
+    margin-bottom: -100px;
 }
 details {
     background-color: #ffffff;
@@ -398,6 +455,7 @@ summary {
     font-weight: bold;
     list-style: none;
     position: relative;
+    padding: 10px;
 }
 summary::after {
     content: '+';
@@ -410,13 +468,15 @@ h1 {
     font-size: 40px;
 }
 h2 {
-
     font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 40px;
 }
 p {
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     color: #333;
+    padding: 10px;
 }
 
 
