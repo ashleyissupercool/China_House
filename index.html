@@ -14,6 +14,32 @@
 </head>
 
 <body>
+
+	<header class="main-header">
+		<nav class="nav-container">
+			<div class="header-right">
+				<a href="javascript:void(0)" class="order-btn" onclick="toggleNotepad()">
+					MY ORDER (<span id="count">0</span>)
+				</a>
+			</div>
+
+			<div class="menu-icon" onclick="toggleMenu()">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+		</nav>
+
+		<div id="side-menu" class="side-menu">
+			<a href="javascriot:void(0)" class="close-btn" onclick="toggleMenu()">&times;</a>
+			<a href="#top" onclick="toggleMenu()">HOME</a>
+			<a href="#about" onclick="toggleMenu()">ABOUT</a>
+			<a href="#menu" onclick="toggleMenu()">MENU</a>
+			<a href="#location" onclick="toggleMenu()">LOCATION</a>
+
+		</div>
+	</header>
+
 	<header id="top" class="hero-container">
 		<img src="photos/China House Top.jpg" alt="top view" class="hero-image">
 		<div class="hero-text">
@@ -45,7 +71,7 @@
 				<h2>MENU HIGHLIGHTS</h2>
 				<p>FIND OUT WHAT OTHERS ARE ORDERING</p>
 				<div class="menu-images">
-					<div class="slider-container">
+					<div id="menu" class="slider-container">
 						<div class="slider-wrapper">
 							<div class="slider">
 								<div id="track" class="image-track">
@@ -1868,8 +1894,8 @@
 		</div>
 	</section>
 
-	<section class="location-section">
-		<div id="location" class="location-container">
+	<section id="location" class="location-section">
+		<div class="location-container">
 			<div class="location-text">
 				<h2>VISIT US!</h2>
 				<h3>CHINA HOUSE</h3>

@@ -39,4 +39,22 @@ track.addEventListener('mouseenter', () => isPaused = true);
 track.addEventListener('mouseleave', () => isPaused = false);
 track.addEventListener('wheel' , (e) => e.preventDefault(), { passive: false });
 
+function toggleMenu() {
+    var menu = document.getElementById("side-menu");
+    if (menu.style.width === "250px") {
+        menu.style.width = "0";
+    } else {
+        menu.style.width = "250px";
+    }
+}
 
+function toggleNotepad() {
+    var notepad = document.getElementById("order-list");
+
+    if (notepad.style.display === "none" || notepad.style.display === " ") {
+        notepad.style.display = "block";
+        notepad.scrollIntoView({ behavior: 'smooth' });
+    } else {
+        notepad.style.display = "none";
+    }
+}
