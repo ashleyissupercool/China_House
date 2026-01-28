@@ -138,15 +138,11 @@ body{
     margin-bottom: 0 !important;
     padding-bottom: 100px !important;
 }
-summary {
-    color: #d32f2f;
-    background-color: #ffaeae;
-}
 .master-menu {
-    background-color: #fc8d8d;
+    background-color: #fffae8;
 }
 .menu-category {
-    background-color: #ffaeae;
+    background-color: #ffffff;
 }
 .menu-group h4 {
     color: #d32f2f;
@@ -457,6 +453,7 @@ summary {
     list-style: none;
     position: relative;
     padding: 10px;
+    color: #2F4F4F;
 }
 summary::after {
     content: '+';
@@ -479,7 +476,6 @@ p {
     color: #333;
     padding: 10px;
 }
-
 
 .main-header {
     background-color: #1a1a1a;
