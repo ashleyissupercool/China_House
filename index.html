@@ -17,28 +17,17 @@
 
 	<header class="main-header">
 		<nav class="nav-container">
-			<div class="header-right">
-				<a href="javascript:void(0)" class="order-btn" onclick="toggleNotepad()">
-					MY ORDER (<span id="count">0</span>)
-				</a>
-			</div>
-
-			<div class="menu-icon" onclick="toggleMenu()">
-				<div class="bar"></div>
-				<div class="bar"></div>
-				<div class="bar"></div>
-			</div>
+			<ul class="nav-links">
+				<li><a href="#top">HOME</a></li>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#menu">MENU</a></li>
+			</ul>
+			<ul class="nav-links right">
+				<li><a href="#location">LOCATION</a></li>
+				<li><a href="#faq">FAQ</a></li>
+				<li><a href="tel:7709640099" class="phone-link">📞 (770) 964-0099</a></li>
+			</ul>
 		</nav>
-
-		<div id="side-menu" class="side-menu">
-			<a href="javascriot:void(0)" class="close-btn" onclick="toggleMenu()">&times;</a>
-			<a href="#top" onclick="toggleMenu()">HOME</a>
-			<a href="#about" onclick="toggleMenu()">ABOUT</a>
-			<a href="#menu" onclick="toggleMenu()">MENU</a>
-			<a href="#location" onclick="toggleMenu()">LOCATION</a>
-			<a href="#faq" onclick="toggleMenu()">FAQ</a>
-
-		</div>
 	</header>
 
 	<header id="top" class="hero-container">

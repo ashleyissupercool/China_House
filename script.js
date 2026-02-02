@@ -47,14 +47,3 @@ function toggleMenu() {
         menu.style.width = "250px";
     }
 }
-
-function toggleNotepad() {
-    var notepad = document.getElementById("order-list");
-
-    if (notepad.style.display === "none" || notepad.style.display === " ") {
-        notepad.style.display = "block";
-        notepad.scrollIntoView({ behavior: 'smooth' });
-    } else {
-        notepad.style.display = "none";
-    }
-}
