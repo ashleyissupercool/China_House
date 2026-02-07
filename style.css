@@ -77,6 +77,8 @@ body{
     color: rgb(1, 75, 0);
 }
 .about-container {
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -84,32 +86,33 @@ body{
 
 }
 .about-section {
+    margin-left: auto;
+    margin-right: auto;
     padding: 170px 200px;
     background-color: #fffae8;
     color: #000000;
 }
 
 .image-container {
-    max-width: 600px;
-    background-color: #fd5151;
+    width: 1500px;
     padding: 20px;
     border-radius: 30px;
-    display: flex;
     border-radius: 10% 10% 10% 10%;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     order: 1;
     margin-left: 100px;
+    justify-content: center;
+    align-items: center;
 }
 .image-container img {
     align-items: center;
     justify-content: center;
     float: center;
     border-radius: 10% 10% 10% 10%;
-    width: 600px;
+    width: 100%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     margin: 10px 0;
-    max-width: none;
     height: auto;
+    display: block;
 }
 
 .about-text h2 {
