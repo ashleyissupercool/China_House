@@ -1,1 +1,1 @@
-Beginner website for family business China House!
+Beginner website for China House
