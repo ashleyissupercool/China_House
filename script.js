@@ -51,12 +51,10 @@ function toggleMenu() {
 const hamburger = document.querySelector('#mobile-menu');
 const navMenu = document.querySelector('.menu-wrapper');
 
-// Toggle the menu when clicking the hamburger
 hamburger.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 });
 
-// Close the menu when a link is clicked
 document.querySelectorAll('.menu-wrapper a').forEach(link => {
     link.addEventListener('click', () => {
         navMenu.classList.remove('active');
