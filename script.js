@@ -37,7 +37,6 @@ animate();
 
 track.addEventListener('mouseenter', () => isPaused = true);
 track.addEventListener('mouseleave', () => isPaused = false);
-track.addEventListener('wheel' , (e) => e.preventDefault(), { passive: false });
 
 function toggleMenu() {
     var menu = document.getElementById("side-menu");

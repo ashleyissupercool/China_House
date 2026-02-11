@@ -313,22 +313,34 @@ body{
 
 
 .location-section {
-    padding: 200px 50px;
+    padding: 60px 50px 120px;
     background-color: #fffae8;
     color: #000000;
     border-top: 1px solid #fffae8;
     border-bottom: 1px solid #fffae8;
 }
+.title-main {
+    font-size: 80px;
+}
+.layered-title-wrapper {
+    width: 100%;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
 .location-container {
+    margin: 0 auto;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 100px;
-    padding: 50px;
+}
+.location-text {
+    flex: 1;
+    margin-top: 0;
+    padding-top: 0;
 }
 .location-text h2 {
     color: rgb(27, 27, 27);
-    margin-top: -300px;
     font-size: 80px;
     margin-bottom: 200px;
     text-align: center;
@@ -350,6 +362,7 @@ body{
     margin: 0 auto;
 }
 .address-link {
+    display: inline-flex;
     text-decoration: none;
     color: inherit;
     display: block;
@@ -358,6 +371,31 @@ body{
     color: #007bff;
     text-decoration: underline;
     opacity: 0.8;
+}
+.hours {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(0,0,0,0.15);
+}
+.hours h4 {
+    display: flex;
+    align-items: center;
+    margin: 0 0 8px 0;
+}
+.hours p {
+    margin: 4px 0;
+    opacity: 0.9;
+}
+.directions-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    background: #1f5f3b;
+    color: white;
+
 }
 .icon-spacing {
     margin-right: 10px;
@@ -800,5 +838,21 @@ p {
         opacity: 1;
         transform: translateY(0);
         display: block;
+    }
+
+    .location-section {
+        padding: 40px 20px;
+    }
+    .layered-title-wrapper {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .location-container {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .maps {
+        width: 100%;
+        height: 280px;
     }
 }
